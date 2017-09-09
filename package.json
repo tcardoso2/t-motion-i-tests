@@ -1,0 +1,30 @@
+{
+  "name": "t-motion-i-tests",
+  "version": "0.0.2",
+  "description": "Integration tests for the different t-motion-* packages",
+  "main": "main.js",
+  "readmeFilename": "README.md",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tcardoso2/t-motion-i-tests.git"
+  },
+  "keywords": [
+    "tests"
+  ],
+  "author": "Tiago Cardoso <tcardoso@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tcardoso2/t-motion-i-tests/issues"
+  },
+  "homepage": "https://github.com/tcardoso2/t-motion-i-tests#readme",
+  "dependencies": {
+    "t-motion-detector": "^0.4.9",
+    "t-motion-detector-cli": "^0.2.2"
+  }
+}
