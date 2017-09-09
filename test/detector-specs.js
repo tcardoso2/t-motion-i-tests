@@ -1,23 +1,11 @@
 var chai = require('chai');
 var chaiAsPromised = require("chai-as-promised");
 var should = chai.should();
-var md, speech;
+var md = require('t-motion-detector');
+var speech = require('t-motion-detector-speech');
 
 //Chai will use promises for async events
 chai.use(chaiAsPromised);
-
-before(function(done) {
-  md = require('t-motion-detector');
-  speech = require('t-motion-detector-speech');
-  done();
-});
-
-after(function(done) {
-  // here you can clear fixtures, etc.
-  md = undefined;
-  speech = undefined;
-  done();
-});
 
 describe("When I try to add a new Detector without and environment", function() {
   it('should throw an exception.', function (done) {

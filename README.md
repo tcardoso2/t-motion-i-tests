@@ -1,9 +1,9 @@
 # t-motion-integration-tests  
 Integration tests for the different t-motion-* packages  
 
-
+* v 0.0.3: Adding more dependencies and dev dependencies, correcting old test mocha files 
 * v 0.0.2: Adding README and other initial files;  
-* v 0.0:.1: First version  
+* v 0.0:1: First version  
 
 ## Links  
   - [LICENSE](https://github.com/tcardoso2/t-motion-i-tests/blob/master/LICENSE)  
