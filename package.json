@@ -1,6 +1,6 @@
 {
   "name": "t-motion-i-tests",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Integration tests for the different t-motion-* packages",
   "main": "main.js",
   "readmeFilename": "README.md",
@@ -24,9 +24,9 @@
   },
   "homepage": "https://github.com/tcardoso2/t-motion-i-tests#readme",
   "dependencies": {
-    "t-motion-detector": "^0.4.9",
-    "t-motion-detector-433": "^0.1.8",
-    "t-motion-detector-cli": "^0.2.2",
+    "t-motion-detector": "^0.5.1",
+    "t-motion-detector-433": "^0.1.12",
+    "t-motion-detector-cli": "^0.2.10",
     "t-motion-detector-speech": "^0.1.2"
   },
   "devDependencies": {
